@@ -1,0 +1,92 @@
+
+body{
+    background: url("numbers-and-counting.jpg") center/cover fixed no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 98vh;
+    font-family: sans-serif;
+}
+
+.main-holder{
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+    border-radius: 0.2rem;
+}
+
+.number-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.count-text{
+    text-shadow: 2px 2px rgba(130, 131, 128, 0.9);
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.counter-text-holder {
+    margin-bottom: -100px;
+}
+
+#number{
+    color: rgb(9, 119, 9);
+    font-size: 10rem;
+    text-shadow: 2px 2px rgba(130, 131, 128, 0.9);
+    border-radius: 32%;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin: 0px 0px 8px 8px;
+    background-color: #094099;
+    color: white;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+    transition: all 0.25s ease-in-out;
+}
+
+.button:hover{
+    background-color: #2873ed;
+    cursor: pointer;
+    transform: translate3d(0, -1.2px,0);
+}
+
+.down-holder {
+    margin-right: 150px;
+}
+
+#down {
+    font-size: 170px;
+    color: #5f3621;
+}
+
+.up-holder {
+    margin-left: 150px;
+}
+
+#up {
+    font-size: 150px;
+    color: #5f3621;
+}
